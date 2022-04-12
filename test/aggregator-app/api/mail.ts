@@ -3,7 +3,7 @@ import { writetoJson, readJson } from '../utils/writetoJson';
 import { verifyUrlFilter } from '../utils/verifyUrlFilter';
 import { token } from "test/aggregator-app/data/mailDev.json"
 const path = "test/aggregator-app/data/mailDev.json"
-const api = "https://api.u-p.cyou/api/user/email/verify?token="
+const api = "https://example/api/user/email/verify?token="
 const MailInstance = axios.create({
     baseURL: 'use your url',
     headers: { 'authorization': 'use your token' }
