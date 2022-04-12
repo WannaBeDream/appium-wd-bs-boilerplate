@@ -5,12 +5,12 @@ import { token } from "test/aggregator-app/data/mailDev.json"
 const path = "test/aggregator-app/data/mailDev.json"
 const api = "https://api.u-p.cyou/api/user/email/verify?token="
 const MailInstance = axios.create({
-    baseURL: 'https://mail.int.u-p.cyou/',
-    headers: { 'authorization': 'Basic Y2F2YWxyeTpiYWRzbmFpbDcy' }
+    baseURL: 'use your url',
+    headers: { 'authorization': 'use your token' }
 });
 
 const appInstance = axios.create({
-    headers: { 'authorization': 'Basic aG9kbG5hdXQ6bmljZWFwcGxlNDU=' }
+    headers: { 'authorization': 'use your token' }
 });
 
 
